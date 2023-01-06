@@ -54,7 +54,7 @@ li {
 }
 
 .text-purple{
-    color: #6030b1;
+    color: #87CEFA;
 }
 
 .row{
@@ -122,7 +122,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-  background-color: #6030b1;
+  background-color:#87CEFA;
   padding: 8px 20px;
   border-radius: 50px;
   color: white;
@@ -130,12 +130,12 @@ nav {
 }
 
 .nav__link--anchor-primary:hover {
-    background-color: #f1435d;
+    background-color:#FAB387;
 }
 
 .personal__logo{
     font-size: 24px;
-    color: #6030b1;
+    color:#87CEFA;
     margin: 0 12px;
     font-weight: bold;
 }
@@ -226,6 +226,7 @@ nav {
   flex: 1;
   display: flex;
   align-items: center;
+  margin-top: 7.5%;
 }
 /* the about me img below is a child, so the width allows the child to be 100% of the partent element */
 .about-me__img{
@@ -407,7 +408,6 @@ footer{
   align-items: center;
   justify-content: center;
   padding: 8% 0;
-  color: whitesmoke; /* THIS NEEDS TO GO / FIX COPYRIGHT*/
 }
 
 
@@ -415,6 +415,7 @@ footer{
   width: 70px;
   height: 70px;
 }
+ .footer__row,
  .footer__logo--popper,
  .footer__social--link,
  .footer__copyright{
